@@ -47,6 +47,14 @@ DB_USER = api_agent
 DB_PASSWORD = Pa$$w0rd
 DB_PORT = 5432
 ```
+### Шаг 5: Настройка формата логов Apache
+Установим формат логов:
+```bash
+nano /etc/apache2/apache2.conf
+```
+```
+LogFormat "%h %l %t \"%r\" %>s %b" combined
+```
 
 ### Шаг 5: Запуск установочных скриптов
 Запустите установочные скрипты для настройки сервисов:
