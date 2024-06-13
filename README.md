@@ -56,7 +56,7 @@ nano /etc/apache2/apache2.conf
 LogFormat "%h %l %t \"%r\" %>s %b" combined
 ```
 
-### Шаг 5: Запуск установочных скриптов
+### Шаг 6: Запуск установочных скриптов
 Запустите установочные скрипты для настройки сервисов:
 ```bash
 sudo bash install_api_service.sh
