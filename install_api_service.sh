@@ -1,7 +1,9 @@
 #!/bin/bash
-SCRIPT_PATH="/internship/api_service.py"
+DIR_PATH=$(dirname "$(readlink -f "$0")")
 
-PYTHON_PATH="/internship/internship/bin/python"
+SCRIPT_PATH="${DIR_PATH}/api_service.py"
+
+PYTHON_PATH="${DIR_PATH}/apache_env/bin/python"
 
 SERVICE_NAME="apache_api_service"
 
