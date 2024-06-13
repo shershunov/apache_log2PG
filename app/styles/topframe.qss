@@ -1,0 +1,5 @@
+QPushButton.cmButton{border:none;background-color:transparent}
+QPushButton.cmButton:hover{border-radius:5px;background-color:#404040}
+QPushButton.cmButton:pressed{border-radius:5px;background-color:#353535}
+.topFrame{background-color:#212121}
+.mainLabel{color:#c8c8c8;font-size:11px;text-align:left;margin-left:8px}

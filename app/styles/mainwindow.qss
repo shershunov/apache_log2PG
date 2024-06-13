@@ -1,0 +1,5 @@
+QMainWindow{background-color:#262626;color:#fff}QPushButton.navButton{border:none;color:#c8c8c8;background-color:transparent;padding:10px 0 10px 14px;text-align:left}
+.title{color: white;}
+.getButton{border-radius:5px; background-color:#202020; color: white; font-size: 12pt}
+.getButton:hover{border-radius:5px;background-color:#404040}
+.getButton:pressed{border-radius:5px;background-color:#353535}
