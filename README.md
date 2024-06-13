@@ -49,7 +49,7 @@ DB_PASSWORD = Pa$$w0rd
 DB_PORT = 5432
 ```
 ### Шаг 5: Настройка формата логов Apache
-Установим формат логов:
+Установите формат логов:
 ```bash
 nano /etc/apache2/apache2.conf
 ```
