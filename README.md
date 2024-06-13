@@ -30,6 +30,7 @@ pip install psycopg2-binary
 
 ### Шаг 4: Настройка конфигурации
 Требуется указать данные для подключения к БД PostgreSQL.
+#### config.ini
 ```
 [log_service]
 DB_HOST = localhost
@@ -84,6 +85,7 @@ curl -X GET "http://host:5000/logs?start_time=2024-06-01T00:00:00&end_time=2024-
 ### Настройка конфигурации
 Требуется указать Host, Port и URL расположенного API сервера.
 
+#### config.ini
 ```
 [API]
 host = 0.0.0.0
