@@ -11,7 +11,7 @@ cd apache_logs
 ```
 
 ### Шаг 2: Настройка виртуального окружения Python
-Создайте виртуальное окружение Python с названием internship и активируйте его:
+Создайте виртуальное окружение Python с названием apache_env и активируйте его:
 ```bash
 sudo apt-get install python3-venv
 python3 -m venv apache_env
