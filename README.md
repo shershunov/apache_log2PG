@@ -67,7 +67,7 @@ group_by_ip: Если true, группировка результатов по I
 ```
 curl -X GET "http://host:5000/logs"
 curl -X GET "http://host:5000/logs?group_by_ip=true"
-curl -X GET "http://192.168.0.189:5000/logs?ip_address=192.168.1.1"
+curl -X GET "http://host:5000/logs?ip_address=192.168.1.1"
 curl -X GET "http://host:5000/logs?start_time=2024-06-01T00:00:00&end_time=2024-06-10T23:59:59"
 ```
 # Приложение
