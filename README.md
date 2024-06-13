@@ -86,7 +86,7 @@ curl -X GET "http://host:5000/logs?start_time=2024-06-01T00:00:00&end_time=2024-
 
 ```
 [API]
-host = 192.168.0.189
+host = 0.0.0.0
 port = 5000
 url = /logs
 ```
