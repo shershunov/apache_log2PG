@@ -34,7 +34,7 @@ It is required to specify data for connection to PostgreSQL database.
 ```
 [log_service]
 DB_HOST = localhost
-DB_NAME = internship
+DB_NAME = postgres
 DB_USER = watchdog_agent
 DB_PASSWORD = Pa$$w0rd
 DB_PORT = 5432
@@ -43,7 +43,7 @@ LAST_POSITION_FILE = last_position.temp
 
 [api_service]
 DB_HOST = localhost
-DB_NAME = internship
+DB_NAME = postgres
 DB_USER = api_agent
 DB_PASSWORD = Pa$$w0rd
 DB_PORT = 5432
