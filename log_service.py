@@ -62,7 +62,7 @@ class LogHandler(FileSystemEventHandler):
                         self.connection.commit()
                         cursor.close()
         except Exception as e:
-            print(f"Ошибка при обработке логов: {e}")
+            print(f"Error while processing logs: {e}")
 
 
 class LogProcessor:
@@ -86,7 +86,7 @@ class LogProcessor:
                 port=self.db_port
             )
         except Exception as e:
-            print(f"Ошибка при подключении к базе данных: {e}")
+            print(f"Error when connecting to the database: {e}")
             return None
 
     def start_observer(self):
@@ -102,13 +102,13 @@ class LogProcessor:
                         time.sleep(1)
                 except KeyboardInterrupt:
                     observer.stop()
-                    print("Обсервер остановлен.")
+                    print("The Observer has been stopped.")
                 except Exception as e:
-                    print(f"Ошибка в цикле обсервера: {e}")
+                    print(f"Error in the observer loop: {e}")
 
                 observer.join()
             except Exception as e:
-                print(f"Ошибка при настройке обсервера: {e}")
+                print(f"Error in configuring the observer: {e}")
             finally:
                 self.close_connection()
 
@@ -117,7 +117,7 @@ class LogProcessor:
             try:
                 self.connection.close()
             except Exception as e:
-                print(f"Ошибка при закрытии соединения с базой данных: {e}")
+                print(f"Error when closing a database connection: {e}")
 
 
 def main():

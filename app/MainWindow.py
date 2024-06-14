@@ -58,11 +58,11 @@ class MainWindow(QMainWindow):
         self.windowHeight = 400
         self.set_flags()
 
-        self.start_time_label = QLabel("Начальная дата:")
+        self.start_time_label = QLabel("Start Date:")
         self.start_time_label.setProperty("class", "title")
-        self.end_time_label = QLabel("Конечная дата:")
+        self.end_time_label = QLabel("End Date:")
         self.end_time_label.setProperty("class", "title")
-        self.group_ip_label = QLabel("Группировка ip:")
+        self.group_ip_label = QLabel("Group by ip:")
         self.group_ip_label.setProperty("class", "title")
         self.group_ip_check_box = QCheckBox(self)
         self.start_time_picker = QDateTimeEdit(self)
@@ -119,7 +119,7 @@ class MainWindow(QMainWindow):
         self.end_box_with_text.addWidget(self.end_time_label)
         self.end_box_with_text.addLayout(self.end_box)
 
-        self.ip_address_label = QLabel("IP Адрес:")
+        self.ip_address_label = QLabel("IP Address:")
         self.ip_address_label.setProperty("class", "title")
         self.ip_address_input = QLineEdit(self)
         self.ip_address_input.setFixedSize(100, 26)

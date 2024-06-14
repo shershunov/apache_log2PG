@@ -78,9 +78,9 @@ def get_logs():
 
             return jsonify(logs)
         except SQLAlchemyError as e:
-            return jsonify({'error': f'Ошибка при работе с базой данных: {str(e)}'}), 500
+            return jsonify({'error': f'Error while working with the database: {str(e)}'}), 500
         except Exception as e:
-            return jsonify({'error': f'Ошибка при получении логов: {str(e)}'}), 500
+            return jsonify({'error': f'Error while retrieving logs: {str(e)}'}), 500
         finally:
             session.close()
 
@@ -89,4 +89,4 @@ if __name__ == "__main__":
     try:
         app.run(host="0.0.0.0", port=5000, debug=True)
     except Exception as e:
-        print(f"Ошибка при запуске API: {e}")
+        print(f"Error when launching the API: {e}")
