@@ -273,8 +273,8 @@ class MainWindow(QMainWindow):
         self.table.setColumnWidth(1, 90)
         self.table.setColumnWidth(2, 60)
         self.table.setColumnWidth(3, 150)
-        self.table.setColumnWidth(4, 80)
-        self.table.setColumnWidth(5, 70)
+        self.table.setColumnWidth(4, 90)
+        self.table.setColumnWidth(5, 90)
         self.table.setColumnWidth(6, 180)
 
     def init_table(self):
