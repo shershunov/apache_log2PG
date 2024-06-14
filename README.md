@@ -82,7 +82,7 @@ curl -X GET "http://host:5000/logs?ip_address=192.168.1.1"
 curl -X GET "http://host:5000/logs?start_time=2024-06-01T00:00:00&end_time=2024-06-10T23:59:59"
 ```
 # Application
-<img src="https://github.com/shershunov/apache_logs/assets/71601841/11c96e9c-1682-438f-bb9e-68073381871e"/>
+<img src="https://github.com/shershunov/apache_logs/assets/71601841/83b29eca-a7ce-4003-a332-06438958672d"/>
 
 ### Configuration settings
 It is required to specify Host, Port and URL of the located API server.
