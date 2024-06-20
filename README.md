@@ -6,7 +6,7 @@ This repository contains two services: `api_service` and `log_service`. `log_ser
 ### Step 1: Clone the repository
 Upload the repository:
 ```bash
-sudo git clone https://github.com/shershunov/apache_logs
+sudo git clone https://github.com/shershunov/apache_log2PG
 cd apache_logs
 ```
 
